@@ -37,12 +37,15 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-TBD.
+Main notebook (src/main.ipynb) is able to run on jupiter server.
+I suggest to run jupiter server with docker.
 
 
 ### Installation
 
-TBD.
+`docker run -it --name jupiter -v ${YOUR HOME DIR}:/home/jovyan/work -p 8888:8888 jupyter/scipy-notebook`
+Then you can run src/main.ipynb
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
